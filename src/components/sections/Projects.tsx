@@ -107,7 +107,7 @@ function FeaturedProjectCard({
                   <span>Direct Farmer-to-Buyer Portal</span>
                 </div>
                 <p className="text-xs text-zinc-400 leading-relaxed">
-                  Decentralized marketplace enabling direct trade without middleman exploitation.
+                  Marketplace interface enabling direct crop listings and buyer inquiries without complex distribution channels.
                 </p>
               </div>
 
@@ -117,7 +117,7 @@ function FeaturedProjectCard({
                   <span>Transparent Price Discovery</span>
                 </div>
                 <p className="text-xs text-zinc-400 leading-relaxed">
-                  Real-time price visibility ensuring equitable value for agricultural producers.
+                  Clear commodity price visibility to assist farmers and buyers with informed transactions.
                 </p>
               </div>
 
@@ -127,7 +127,7 @@ function FeaturedProjectCard({
                   <span>Full-Stack Architecture</span>
                 </div>
                 <p className="text-xs text-zinc-400 leading-relaxed">
-                  Next.js App Router client connected to a high-speed Python FastAPI backend with PostgreSQL.
+                  Next.js App Router client connected to a Python FastAPI backend with PostgreSQL database.
                 </p>
               </div>
             </div>

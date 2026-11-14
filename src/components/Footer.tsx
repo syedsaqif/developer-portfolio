@@ -1,7 +1,5 @@
-import { Github, Linkedin, Instagram, Heart } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 import { personal, social } from "@/data/config";
-
-const CURRENT_YEAR = 2026;
 
 export function Footer() {
   return (
@@ -15,10 +13,8 @@ export function Footer() {
         </span>
 
         {/* Credit */}
-        <p className="flex items-center gap-1.5 text-xs text-zinc-400">
-          <span>Crafted with</span>
-          <Heart size={13} className="text-violet-400 fill-violet-400 inline" />
-          <span>using Next.js &amp; Tailwind CSS · {CURRENT_YEAR}</span>
+        <p className="text-xs text-zinc-400">
+          Crafted with 💜 using Next.js &amp; Tailwind CSS.
         </p>
 
         {/* Social Links */}

@@ -17,6 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: siteConfig.title,
   description: siteConfig.description,
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
@@ -33,6 +34,9 @@ export const metadata: Metadata = {
     "Heritage Institute of Technology",
     "Portfolio",
   ],
+  icons: {
+    icon: "/favicon.ico",
+  },
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",

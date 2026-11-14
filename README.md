@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Syed Saqif — Personal Portfolio
+
+A modern, high-performance developer portfolio built with Next.js (App Router), TypeScript, Tailwind CSS, and Framer Motion. Designed with a dark aesthetic, violet accents, fluid typography, and clean micro-interactions.
+
+🌐 **Live Website:** [https://developer-portfolio-six-iota.vercel.app/](https://developer-portfolio-six-iota.vercel.app/)
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+---
+
+## Features
+
+- **Design & Layout:** Charcoal/near-black theme (`#09090b`) with refined violet accents, custom dot-grid ambience, and smooth radial gradients.
+- **Featured Project Showcase:** Detailed showcase card for **Krishi Market** (agricultural marketplace built with Next.js, FastAPI, and PostgreSQL), featuring live domain demo and GitHub repository links.
+- **My Tech Stack:** Organized showcase of languages, frontend, backend, database technologies, and development tools.
+- **Accessibility & Performance:** WCAG AAA color contrast ratios, keyboard skip-to-content navigation, `prefers-reduced-motion` compliance, and zero SSR hydration discrepancies.
+- **SEO & Metadata:** Structured Open Graph and Twitter Card tags, clean metadataBase, and semantic landmark elements.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.x or later
+- npm or pnpm
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/syedsaqif/developer-portfolio.git
+   cd developer-portfolio
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Available Scripts
 
-## Deploy on Vercel
+- `npm run dev` — Starts the Next.js development server with Turbopack.
+- `npm run build` — Generates an optimized production build with static prerendering.
+- `npm run start` — Starts the production server.
+- `npm run lint` — Runs ESLint code quality checks.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+**Syed Saqif**  
+BTech Information Technology student at Heritage Institute of Technology, Kolkata.
+
+- **GitHub:** [@syedsaqif](https://github.com/syedsaqif)
+- **LinkedIn:** [syedsaqifhossain](https://www.linkedin.com/in/syedsaqifhossain/)
+- **Email:** [syedsaqif03@gmail.com](mailto:syedsaqif03@gmail.com)
+
+---
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).

@@ -9,8 +9,7 @@ export const siteConfig = {
   title: "Syed Saqif — Software Developer",
   description:
     "Second-year BTech IT student at Heritage Institute of Technology, Kolkata. Building full-stack web applications with Next.js, TypeScript, Python, and FastAPI.",
-  url: "https://github.com/syedsaqif",
-  ogImage: "/og.png",
+  url: "https://developer-portfolio-six-iota.vercel.app",
 };
 
 // ─── Personal ────────────────────────────────────────────────
@@ -62,9 +61,9 @@ export const projects = [
     id: "krishi-market",
     title: "Krishi Market",
     description:
-      "A digital marketplace connecting Indian farmers directly with buyers to eliminate middlemen and enable fair pricing.",
+      "A full-stack agricultural marketplace built to connect farmers directly with buyers, featuring crop listings, pricing visibility, and an accessible buyer-seller workflow.",
     longDescription:
-      "A digital agricultural marketplace connecting farmers directly with buyers to promote fair pricing and eliminate intermediaries. Features live product listings, transparent price discovery, and a clean buyer-seller interface built with Next.js, FastAPI, and PostgreSQL.",
+      "A full-stack agricultural marketplace designed to facilitate direct trade between farmers and buyers. Features crop listings, price discovery, and a clean buyer-seller interface built with Next.js, FastAPI, and PostgreSQL.",
     tags: [
       "Next.js",
       "React",
